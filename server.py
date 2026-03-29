@@ -25,7 +25,7 @@ import requests as req
 import uvicorn
 
 # ── CONFIG ────────────────────────────────────────────────────────
-DB_FILE      = "echoroom.db"
+DB_FILE      = "echoroom_v3.db"
 OLLAMA_URL   = os.getenv("OLLAMA_URL",   "http://localhost:11434/api/generate")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")
 PORT         = int(os.getenv("PORT",     8000))
